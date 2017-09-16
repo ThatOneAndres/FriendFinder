@@ -47,7 +47,23 @@ var friends =
           1,
           1
         ]
-      }
+      },
+      {
+        "name":"Patrick",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/7/7e/Patrick_Star.png",
+        "scores":[
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
  ];
 
  module.exports = friends;
