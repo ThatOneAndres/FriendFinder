@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Find A Friend</title>
+	<!-- Bootstrap 4 -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Survey Questions</h1>
+		<hr class = "my-3">
+		<h2>About You</h2>
+		<div>Name (Required)</div>
+		<input type="text" id ="name">
+		<div>Link to Photo Image (Required)</div>
+		<input type="text" id = "photo">
+		<hr class = "my-3">
+		<h2>Question 1</h2>
+		<div>Your mind is always buzzing with unexplored ideas and plans.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		  </div>
+		</div>
+		<h2>Question 2</h2>
+		<div>Generally speaking, you rely more on your experience than your imagination.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 3</h2>
+		<div>You find it easy to stay relaxed and focused even when there is some pressure.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 4</h2>
+		<div>You rarely do something just out of sheer curiosity.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 5</h2>
+		<div>People can rarely upset you.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 6</h2>
+		<div>It is often difficult for you to relate to other people's feelings.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 7</h2>
+		<div>In a discussion, truth should be more important than people's sensitivities</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 8</h2>
+		<div>You rarely get carried away by fantasies and ideas</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 9</h2>
+		<div>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<h2>Question 10</h2>
+		<div>You fell more energetic after spending time with a group of people.</div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="q10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    Choose
+		  </button>
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+		    <button class="dropdown-item btn btn-secondary">1 (Strongly Disagree)</button>
+		    <button class="dropdown-item btn btn-secondary">2</button>
+		    <button class="dropdown-item btn btn-secondary">3</button>
+		    <button class="dropdown-item btn btn-secondary">4</button>
+		    <button class="dropdown-item btn btn-secondary">5 (Strongly Agree)</button>
+		 </div>
+		</div>
+		<button type = "button" class = "btn btn-primary" id = "submit" style = "width: 100%">Submit</button>
+
+	</div>
+
+
+  <script type="text/javascript">
+  	//$($(".dropdown-item").parent().parent()[0].children.dropDownText1).text("Hello")
+  	// Dropdown js
+  	$(".dropdown-item").on("click",function(event){
+  		$($(event.currentTarget).parent().parent()[0].children[0]).text(event.currentTarget.innerText);
+  	})
+
+    // Capture the form inputs 
+    $("#submit").on("click", function(){
+
+    	// Form validation
+    	function validateForm() {
+		  var isValid = true;
+		  if($("#name").val() === "")
+		  	isValid = false;
+		  if($("#photo").val() === "")
+		  	isValid = false;
+
+		  $('.dropdown').each(function() {
+		  	if( $(this)[0].innerText.includes(("Choose")))
+		  		isValid = false;
+		  })
+		  return isValid;
+		}
+
+		// If all required fields are filled
+		if (validateForm() == true)
+		{
+			// Create an object for the user's data
+	    	var userData = {
+	    		name: $("#name").val(),
+	    		photo: $("#photo").val(),
+	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+	    	}
+
+	    	// Grab the URL of the website
+	    	var currentURL = window.location.origin;
+
+	    	// AJAX post the data to the friends API. 
+	    	$.post(currentURL + "/api/friends", userData, function(data){
+
+	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
+	    		$("#matchName").text(data.name);
+	    		$('#matchImg').attr("src", data.photo);
+
+		    	// Show the modal with the best match 
+		    	$("#resultsModal").modal('toggle');
+
+	    	});
+		}
+		else
+		{
+			alert("Please fill out all fields before submitting!");
+		}
+    	
+    	return false;
+    });
+
+
+  </script>
+
+
+</body></html>

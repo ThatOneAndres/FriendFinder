@@ -19,13 +19,15 @@ app.use(bodyParser.json({
 }));
 
 
-var api = require("./apiRoutes.js");
-var html = require("./htmlRoutes.js");
+var api = require("./app/routing/apiRoutes.js");
+var html = require("./app/routing/htmlRoutes.js");
 
 
 api.getFriends(app);
 api.enterPerson(app);
 
+html.goHome(app,path);
+html.goSurvey(app,path);
 
 // Listener
 // ===========================================================

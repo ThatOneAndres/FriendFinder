@@ -1,4 +1,6 @@
-{
+var friends =
+ [
+  {
   "name":"Ahmed",
   "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
   "scores":[
@@ -13,4 +15,39 @@
       4,
       1
     ]
-}
+  },
+  {
+    "name":"SpongBob",
+    "photo":"http://a2.cdn.whatstrending.com/post_items/images/000/051/203/original/SpongebobHappy.jpg",
+    "scores":[
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name":"Squidward",
+      "photo":"https://upload.wikimedia.org/wikipedia/en/a/ac/Squidward.png",
+      "scores":[
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+ ];
+
+ module.exports = friends;
